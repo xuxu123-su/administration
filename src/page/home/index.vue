@@ -1,0 +1,55 @@
+<template>
+  <div>
+<!--    头部-->
+    <top-assembly />
+<!--    内容-->
+    <div class="nav">
+      <!--    导航组件-->
+      <menu-assembly />
+<!--      右部分-->
+      <nav-assembly />
+    </div>
+  </div>
+</template>
+
+<script>
+  // 头部组件
+  import topAssembly from "@/components/topCommon/topAssembly";
+  // 导航组件
+  import menuAssembly from "@/components/menuCommon/menuAssembly";
+  // 展示条组件
+  import Header from "@/components/common/Header";
+  // 内容组件
+  import navAssembly from "@/components/navCommon/navAssembly";
+
+  export default {
+    name: 'home',
+    components: {
+      topAssembly,
+      menuAssembly,
+      Header,
+      navAssembly
+    },
+    data() {
+      return {
+
+      };
+    },
+
+    mounted() {
+
+    },
+
+    methods: {
+
+    },
+  };
+</script>
+
+<style scoped>
+  /*展示*/
+  .nav {
+    width: 100%;
+    display: flex;
+  }
+</style>
