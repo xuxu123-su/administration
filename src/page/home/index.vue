@@ -14,13 +14,13 @@
 
 <script>
   // 头部组件
-  import topAssembly from "@/components/topCommon/topAssembly";
+  import topAssembly from "@/components/common/topAssembly";
   // 导航组件
-  import menuAssembly from "@/components/menuCommon/menuAssembly";
+  import menuAssembly from "@/components/common/menuAssembly";
   // 展示条组件
   import Header from "@/components/common/Header";
   // 内容组件
-  import navAssembly from "@/components/navCommon/navAssembly";
+  import navAssembly from "@/components/common/navAssembly";
 
   export default {
     name: 'home',

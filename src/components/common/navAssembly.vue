@@ -10,7 +10,6 @@
     <!--        商品管理-->
     <div v-if="active == 2">
       <header name="shopping-cart-o" span="商品管理"/>
-      222
     </div>
     <!--        订单管理-->
     <div v-if="active == 3">
@@ -24,8 +23,8 @@
   // 接收menu组件传值
   import eventBut from "../../assets/js/eventBut"
   // card组件
-  import EchartCard from "@/components/EchartCard"
-  import EchartSale from "@/components/EchartSale"
+  import EchartCard from "@/components/Card/EchartCard"
+  import EchartSale from "@/components/Card/EchartSale"
   export default {
     name: "navAssembly",
     components: {

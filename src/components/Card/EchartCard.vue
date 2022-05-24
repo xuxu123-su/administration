@@ -25,10 +25,10 @@
 </template>
 
 <script>
-  import TotalSale from "@/components/TotalSale";
-  import TotalOrders from "@/components/TotalOrders";
-  import TodayUser from "@/components/TodayUser";
-  import TotalUser from "@/components/TotalUser";
+  import TotalSale from "@/components/EchartCard/TotalSale";
+  import TotalOrders from "@/components/EchartCard/TotalOrders";
+  import TodayUser from "@/components/EchartCard/TodayUser";
+  import TotalUser from "@/components/EchartCard/TotalUser";
 
   export default {
     name: "index",
